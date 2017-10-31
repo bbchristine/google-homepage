@@ -1,0 +1,147 @@
+<style type="text/css">
+
+
+body {
+  font-family:arial,sans-serif;
+  color:#FF1493;
+  overflow:scroll;
+
+}
+
+.nav {
+  position:absolute;
+  display: inline-block;
+ }
+
+#headernav {
+  top: 10px;
+  right: 40px;
+  font-size: 14px;
+  display:inline-block;
+}
+
+a:link {
+  text-decoration: none;
+  color:#C71585;
+  opacity:.75;
+}
+a:visited {
+  text-decoration: none;
+  color: #FFB6C1;
+}
+a:active,a:hover {
+  text-decoration: underline;
+  color:#C71585;
+  opacity: 1;
+}
+
+.button:active,.button:hover,#sil:hover {
+  text-decoration: none;
+  color:#C71585;
+  opacity: 1;
+}
+
+ul {
+  list-style-type: none;
+   }
+
+li img {
+  width:20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+li {
+  padding-left: 10px;
+  display: inline;
+}
+.button {
+	background: #FFB6C1;
+  display:inline-block;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  border:1px;
+  border-color:white;
+  margin:0 auto;
+  vertical-align: middle;
+  opacity: .75
+}
+
+#sil {
+  height:18px;
+  width:50px;
+  color:white;
+  }
+
+#centerimg {
+  position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#sb {
+    width: 400px;
+    height:30px;
+    background: #fafafa;
+    border:1px solid #FFCCFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    outline:none;
+}
+
+#sb:active #sb:hover{
+    border: 2px solid #FF69B4;
+    transition: all .3s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+    transition-delay: 0.3s;
+    text-decoration: none;
+    outline:none;
+}
+
+.button {
+    height:30px;
+    outline:none;
+    background: #FFB6C1;
+    display:inline-block;
+    text-align: center;
+    padding-top: 5px;
+    border:1px;
+    border-color:white;
+    margin:0 auto;
+    vertical-align: middle;
+}
+
+#sbutton {
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  outline:none;
+}
+#lucky {
+  position: absolute;
+  top: 60%;
+  left: 57%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  outline:none;
+}
+#footernav{
+  bottom: 1%;
+  left: 40px;
+  color:white;
+  background:#FFB6C1 center center;
+  vertical-align: middle;
+}
+#padright100 {
+  padding-right: 100px;
+}
+#padright50 {
+  padding-right: 50px;
